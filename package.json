@@ -1,6 +1,6 @@
 {
 	"name": "boundary-plugin-asterisk",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"private": false,
 	"description": "Asterisk plugin for Boundary",
 	"main": "index.js",
