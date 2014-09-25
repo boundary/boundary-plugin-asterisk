@@ -29,7 +29,7 @@ function poll()
                             }
                     }
 
-                    console.log('ASTERISK_SIP_ENDPOINTS: ' + sip_endpoints);
+                    console.log('ASTERISK_SIP_ENDPOINTS ' + sip_endpoints);
             });
     });
 
