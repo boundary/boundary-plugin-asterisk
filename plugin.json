@@ -6,6 +6,7 @@
 		"ASTERISK_BRIDGES",
 		"ASTERISK_SIP_ENDPOINTS"
 	],
+	"icon" : "icon.png",
 	"dashboards" : [
         {
             "name" : "asterisk",
