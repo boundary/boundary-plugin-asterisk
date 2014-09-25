@@ -23,9 +23,9 @@ function poll()
                     var sip_endpoints = 0;
                     for (var i = 0; i < endpoints.length; i++)
                     {
-                            if (endpoints[i].technology == "SIP" && endpoints[i].status == 'online')
+                            if (endpoints[i].technology == "SIP" && endpoints[i].state == "online")
                             {
-                            	sip_endpoints++;
+                                    sip_endpoints++;
                             }
                     }
 
