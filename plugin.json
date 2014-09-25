@@ -1,0 +1,24 @@
+{
+    "description" : "Provides Asterisk metrics through ARI",
+	"command" : "node index.js $(pollInterval)",
+	"metrics" : ["ACTIVE_CHANNELS"],
+	"postExtract" : "npm install ari-client",
+	"paramSchema" : [
+        {
+            "title" : "Asterisk HTTP Server",
+            "name" : "server",
+            "description" : "i.e. http://127.0.0.1:8088.",
+            "type" : "string"
+        },
+        {
+            "title" : "Username",
+            "name" : "username",
+            "type" : "string"
+        },
+        {
+            "title" : "Password",
+            "name" : "password",
+            "type" : "password"
+        }
+    ]
+}
