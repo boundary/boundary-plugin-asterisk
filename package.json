@@ -17,7 +17,7 @@
 		"plugin",
 		"boundary"
 	],
-	"author": "Casey Morford <support@reflectivegroup.com>",
+	"author": "Casey Morford (Reflective Group) <support@reflectivegroup.com>",
 	"license": "Apache v2",
 	"bugs": {
 		"url": "https://github.com/cmorford/boundary-plugin-asterisk/issues"
